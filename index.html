@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- "Add Question" section -->
+    <section id="section1">
+      <div class="container center-align">
+        <h1>Add Question</h1>
+        <div class="alerts"></div>
+        <input type="text" id="question" placeholder="Question" />
+        <br /><br />
+        <textarea
+          id="answer"
+          class="materialize-textarea"
+          placeholder="Answer"
+        ></textarea>
+        <br />
+        <div class="buttons">
+          <button class="btn" id="submit">Add Question</button>
+        </div>
+      </div>
+    </section>
+    <!-- "Quiz" Section -->
+    <section id="section2">
+      <div class="container right-align"></div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
